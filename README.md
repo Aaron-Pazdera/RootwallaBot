@@ -1,15 +1,21 @@
 # RootwallaBot
 A Discord Bot for Magic the Gathering deckbuilding and statistical analysis.
 
+## Overveiw
+
+
 ## Commands
 
 ## Dependencies
+RootwallaBot is a Java [Maven](https://maven.apache.org/) project with the following dependencies.
 
--Discord4J
--JFreeChart
--XStream
+• [Discord4J](https://discord4j.com/)
 
-## pom.xml 
+• [JFreeChart](http://www.jfree.org/jfreechart/)
+
+• [XStream](http://x-stream.github.io/)
+
+To automatically incorporate these into your Maven project, copy/paste the following into your pom.xml.
 
 ```
 <repositories>
