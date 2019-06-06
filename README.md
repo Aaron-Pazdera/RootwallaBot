@@ -13,8 +13,6 @@ RootwallaBot is a Java [Maven](https://maven.apache.org/) project with the follo
 
 • [JFreeChart](http://www.jfree.org/jfreechart/)
 
-• [XStream](http://x-stream.github.io/)
-
 To automatically incorporate these into your Maven project, copy/paste the following into your pom.xml.
 
 ```
@@ -45,11 +43,6 @@ To automatically incorporate these into your Maven project, copy/paste the follo
 			<version>1.5.0</version>
 		</dependency>
 
-		<dependency>
-			<groupId>com.thoughtworks.xstream</groupId>
-			<artifactId>xstream</artifactId>
-			<version>1.4.11.1</version>
-		</dependency>
 	</dependencies>
 ```
 
