@@ -2,9 +2,18 @@
 A Discord Bot for Magic the Gathering deckbuilding and statistical analysis.
 
 ## Overveiw
+RootwallaBot allows you to very quickly calculate the probability of a hypergeometric event occurring during a game of magic. It also provides helpful charts for deckbuilding.
 
+## Examples
+This is a quick way to calculate the chances that, assuming you have 24 lands in your 60 card deck, you draw 2 to 4 of them in your 7-card opening hand.
+
+![Image description](https://raw.githubusercontent.com/Aaron-Pazdera/RootwallaBot/master/Examples/RootwallaBot%20Prob%20Example.png)
+
+
+![Image description](https://raw.githubusercontent.com/Aaron-Pazdera/RootwallaBot/master/Examples/RootwallaBot%20ProbChart%20Example.png)
 
 ## Commands
+Type /commandlist to find the list of commands. Type **/\<commandname\>help** to learn how to use the command.
 
 ## Dependencies
 RootwallaBot is a Java [Maven](https://maven.apache.org/) project with the following dependencies.
@@ -13,38 +22,17 @@ RootwallaBot is a Java [Maven](https://maven.apache.org/) project with the follo
 
 • [JFreeChart](http://www.jfree.org/jfreechart/)
 
-To automatically incorporate these into your Maven project, copy/paste the following into your pom.xml.
+To automatically incorporate these into your Maven project, copy/paste the <repositories> and <dependencies> from my pom.xml into yours.
 
-```
-<repositories>
-		<repository>
-			<id>jcenter</id>
-			<url>http://jcenter.bintray.com</url>
-		</repository>
-	</repositories>
 
-	<dependencies>
-		<dependency>
-			<groupId>org.junit.jupiter</groupId>
-			<artifactId>junit-jupiter-engine</artifactId>
-			<version>5.3.1</version>
-			<scope>test</scope>
-		</dependency>
+## TODO (In order of Priority)
+• More statistics, expose univariate and multivariate variance and standard deviation methods
+• More charts
+• Make bot and docs easier to understand
+• Reformat charts, add interval when a k range is specified
+• Refactor chart library, remove unnecessary inheritance
 
-		<dependency>
-			<groupId>com.discord4j</groupId>
-			<artifactId>Discord4J</artifactId>
-			<version>2.10.1</version>
-		</dependency>
 
-		<dependency>
-			<groupId>org.jfree</groupId>
-			<artifactId>jfreechart</artifactId>
-			<version>1.5.0</version>
-		</dependency>
-
-	</dependencies>
-```
 
 ## License
 Released under the [MIT](https://opensource.org/licenses/MIT) license.
