@@ -27,9 +27,13 @@ To automatically incorporate these into your Maven project, copy/paste the <repo
 
 ## TODO (In order of Priority)
 • More statistics, expose univariate and multivariate variance and standard deviation methods
+
 • More charts
+
 • Make bot and docs easier to understand
+
 • Reformat charts, add interval when a k range is specified
+
 • Refactor chart library, remove unnecessary inheritance
 
 
