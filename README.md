@@ -30,6 +30,8 @@ To automatically incorporate these into your Maven project, copy/paste the <repo
 
 
 ## TODO (In order of Priority)
+• Fix bug where chart files are not deleted
+
 • More statistics, expose univariate and multivariate variance and standard deviation methods
 
 • More charts
