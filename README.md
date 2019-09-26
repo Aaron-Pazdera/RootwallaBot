@@ -4,6 +4,10 @@ A Discord Bot for Magic the Gathering deckbuilding and statistical analysis.
 ## Overveiw
 RootwallaBot allows you to very quickly calculate the probability of a hypergeometric event occurring during a game of magic. It also provides helpful charts for deckbuilding.
 
+To add RootwallaBot to your server, follow this link: 
+
+[https://discordapp.com/oauth2/authorize?client_id=531668847355363338&permissions=51200&scope=bot](https://discordapp.com/oauth2/authorize?client_id=531668847355363338&permissions=51200&scope=bot) 
+
 ## Examples
 This is a quick way to calculate the chances that, assuming you have 24 lands in your 60 card deck, you draw 2 to 4 of them in your 7-card opening hand.
 
