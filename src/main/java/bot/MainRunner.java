@@ -7,7 +7,7 @@ public class MainRunner {
 
 	// Change this if the token is regenerated, or overwrite it with argument from
 	// command line.
-	private static String token = "NTMxNjY4ODQ3MzU1MzYzMzM4.XNNZng.rW_PubdWN77ILz1vQYzokFbmIu4";
+	private static String token = "*bot token removed*";
 
 	public static void main(String[] args) {
 
